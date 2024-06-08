@@ -1,0 +1,59 @@
+/* AddUser.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-user-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .add-user-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-user-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-user-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-user-container .form-group input,
+  .add-user-container .form-group select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .add-user-container .form-group input:focus,
+  .add-user-container .form-group select:focus {
+    border-color: #007bff;
+  }
+  
+  .add-user-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-user-container button:hover {
+    background-color: #0056b3;
+  }
+  
